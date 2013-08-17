@@ -54,7 +54,7 @@ sub verify
 {
         my ($self, $otp, $for_time) = @_; 
 
-        $for_time = time() if $for_time eq ""; 
+        $for_time = time() unless defined $for_time; 
 
         return $otp == $self->at($for_time);
 }
