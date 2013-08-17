@@ -50,5 +50,5 @@ $totp->provisioning_uri('my_account_name'); # => 'otpauth://totp/my_account_name
 This can be rendered as QRCode using [HTML::QRCode](http://search.cpan.org/~hide/HTML-QRCode-0.01/lib/HTML/QRCode.pm) module
 
 ##See also:
-Python Version of pyotp by [Nathan Reynolds](https://github.com/nathforge/pyotp)
+Python Version of [pyotp by Nathan Reynolds](https://github.com/nathforge/pyotp)
 
